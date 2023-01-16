@@ -1,0 +1,25 @@
+{
+  "name": "final-project-web",
+  "version": "1.0.0",
+  "description": "This is the firts time I have realized what I have to do!",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izzatbekd03/final-project-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izzatbekd03/final-project-web/issues"
+  },
+  "homepage": "https://github.com/izzatbekd03/final-project-web#readme",
+  "workspaces": [
+    "packages\\a"
+  ],
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
